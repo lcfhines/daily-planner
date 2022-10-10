@@ -30,63 +30,80 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <table class="table table-bordered">
-        <thead>
-          <tr>
-            <th class="col-2">Hour</th>
-            <th class="col-9">Events</th>
-            <th class="col-1"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th class="timeblock">9AM</th>
-            <td class="event"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th class="timeblock">10AM</th>
-            <td class="event"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th class="timeblock">11AM</th>
-            <td class="event"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th class="timeblock">12PM</th>
-            <td class="event"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th class="timeblock">1PM</th>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th class="timeblock">2PM</th>
-            <td class="event"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th class="timeblock">3PM</th>
-            <td class="event"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th class="timeblock">4PM</th>
-            <td class="event"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th class="timeblock">5PM</th>
-            <td class="event"></td>
-            <td></td>
-          </tr>
+          <div class="row time-block description" id="9am">
+            <div class="col-1 hour">9AM</div>
+            
+            <div class="col-10 event form-inline">
+                <input type="text" class= "form-inline w-100 h-100" id="eventInput" name="eventInput" placeholder="scheduled event">
+                <div class="storedEvent"></div>
+            </div>
+              <button class="col-1 btn saveBtn">Save</button>
+          </div>
+          <div class="row time-block" id="10am">
+            <div class="col-1 hour">10AM</div>
+            <form class="col-10 event form-inline">
+              <input type="text" class= "form-inline w-100 h-100" id="eventInput" name="eventInput" placeholder="scheduled event">
+              <!-- <div class="storedEvent"></div> -->
+            </form>
+            <button class="col-1 btn saveBtn"></button>
+          </div>
+          <div class="row time-block" id="11am">
+            <div class="col-1 hour">11AM</div>
+            <form class="col-10 event form-inline">
+              <input type="text" class= "form-inline w-100 h-100" id="eventInput" name="eventInput" placeholder="scheduled event">
+              <div class="storedEvent"></div>
+            </form>
+            <button class="col-1 btn saveBtn"></button>
+          </div>
+          <div class="row time-block" id="12pm">
+            <div class="col-1 hour">12PM</div>
+            <form class="col-10 event form-inline">
+              <input type="text" class= "form-inline w-100 h-100" id="eventInput" name="eventInput" placeholder="scheduled event">
+              <div class="storedEvent"></div>
+            </form>
+            <button class="col-1 btn saveBtn"></button>
+          </div>
+          <div class="row time-block" id="1pm">
+            <div class="col-1 hour">1PM</div>
+            <form class="col-10 event form-inline">
+              <input type="text" class= "form-inline w-100 h-100" id="eventInput" name="eventInput" placeholder="scheduled event">
+              <div class="storedEvent"></div>
+            </form>
+            <button class="col-1 btn saveBtn"></button>
+          </div>
+          <div class="row time-block" id="2pm">
+            <div class="col-1 hour">2PM</div>
+            <form class="col-10 event form-inline">
+              <input type="text" class= "form-inline w-100 h-100" id="eventInput" name="eventInput" placeholder="scheduled event">
+              <div class="storedEvent"></div>
+            </form>
+            <button class="col-1 btn saveBtn"></button>
+          </div>
+          <div class="row time-block" id="3pm">
+            <div class="col-1 hour">3PM</div>
+            <form class="col-10 event form-inline">
+              <input type="text" class= "form-inline w-100 h-100" id="eventInput" name="eventInput" placeholder="scheduled event">
+              <div class="storedEvent"></div>
+            </form>
+            <button class="col-1 btn saveBtn"></button>
+          </div>
+          <div class="row time-block" id="4pm">
+            <div class="col-1 hour">4PM</div>
+            <form class="col-10 event form-inline">
+              <input type="text" class= "form-inline w-100 h-100" id="eventInput" name="eventInput" placeholder="scheduled event">
+              <div class="storedEvent"></div>
+            </form>
+            <button class="col-1 btn saveBtn"></button>
+          </div>
+          <div class="row time-block" id="5pm">
+            <div class="col-1 hour">5PM</div>
+            <form class="col-10 event form-inline">
+              <input type="text" class= "form-inline w-100 h-100" id="eventInput" name="eventInput" placeholder="scheduled event">
+              <div class="storedEvent"></div>
+            </form>
+            <button class="col-1 btn saveBtn"></button>
+          </div>
 
-        </tbody>
-      </table>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -94,3 +111,5 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+
