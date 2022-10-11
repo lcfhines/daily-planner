@@ -21,11 +21,11 @@ $("#block9 .description").val(localStorage.getItem("block9"));
 $("#block10 .description").val(localStorage.getItem("block10"));
 $("#block11 .description").val(localStorage.getItem("block11"));
 $("#block12 .description").val(localStorage.getItem("block12"));
-$("#block1 .description").val(localStorage.getItem("block1"));
-$("#block2 .description").val(localStorage.getItem("block2"));
-$("#block3 .description").val(localStorage.getItem("block3"));
-$("#block4 .description").val(localStorage.getItem("block4"));
-$("#block5 .description").val(localStorage.getItem("block5"));
+$("#block13 .description").val(localStorage.getItem("block13"));
+$("#block14 .description").val(localStorage.getItem("block14"));
+$("#block15 .description").val(localStorage.getItem("block15"));
+$("#block16 .description").val(localStorage.getItem("block16"));
+$("#block17 .description").val(localStorage.getItem("block17"));
 
 function colorCode() {
     var presentHour = moment().hour();
